@@ -35,16 +35,7 @@
 
 #include "pins_RAMPS_13.h"
 
-#undef E1_STEP_PIN
-#undef E1_DIR_PIN
-#undef E1_ENABLE_PIN
-#undef E1_CS_PIN
-
 // i3 Mega specific pin arrangement
-
-#define Z2_STEP_PIN        36
-#define Z2_DIR_PIN         34
-#define Z2_ENABLE_PIN      30
 
 #undef Y_MIN_PIN
 #undef X_MAX_PIN
