@@ -380,10 +380,10 @@
 
   // If you are using a pre-configured hotend then you can use one of the value sets by uncommenting it
 
-  // Autotune at 200º with PLA in the nozzle
-  #define  DEFAULT_Kp 16.50
-  #define  DEFAULT_Ki 1.01
-  #define  DEFAULT_Kd 67.23
+  // Autotune at 200º with PLA loaded, E3D hardened steel nozzle, part cooling fan at 50%
+ #define DEFAULT_Kp 31.04
+ #define DEFAULT_Ki 3.16
+ #define DEFAULT_Kd 76.27
 
   // Ultimaker
   //#define  DEFAULT_Kp 22.2
