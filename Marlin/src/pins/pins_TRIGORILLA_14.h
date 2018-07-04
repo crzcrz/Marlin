@@ -33,7 +33,7 @@
 #define FAN2_PIN             44
 #define ORIG_E0_AUTO_FAN_PIN 44
 
-#include "pins_RAMPS_13.h"
+#include "pins_RAMPS.h"
 
 // i3 Mega specific pin arrangement
 
