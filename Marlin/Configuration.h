@@ -317,7 +317,7 @@
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
 #define TEMP_SENSOR_4 0
-#define TEMP_SENSOR_BED 1
+#define TEMP_SENSOR_BED 11
 #define TEMP_SENSOR_CHAMBER 0
 
 // Dummy thermistor constant temperature readings, for use with 998 and 999
@@ -449,9 +449,9 @@
   //#define DEFAULT_bedKd 1675.16
 
   // Autotune at 60º
-  #define  DEFAULT_bedKp 185.49
-  #define  DEFAULT_bedKi 35.94
-  #define  DEFAULT_bedKd 239.32
+  #define DEFAULT_bedKp 259.74
+  #define DEFAULT_bedKi 39.14
+  #define DEFAULT_bedKd 430.88
   
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 #endif // PIDTEMPBED
